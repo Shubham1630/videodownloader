@@ -1,0 +1,90 @@
+<resources>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!--<string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>-->
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="tips_not_wifi" translatable="false">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel" translatable="false">Stop play</string>
+    <string name="tips_not_wifi_confirm" translatable="false">Resume</string>
+    <string name="all_in_one_video_downloader" translatable="false">All in one Video Downloader</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="arabic" translatable="false">Arabic</string>
+
+
+    <string name="menu_dashboard">मुख्यपृष्ठ</string>
+    <string name="apps">समर्थित अँप्स</string>
+    <string name="find_all">तुमच्या संपर्कातील लोकांनी पोस्ट केलेले स्टेटस शोधा आणि डाउनलोड करा</string>
+    <string name="video_loading_faild">अयशस्वी</string>
+    <string name="click_to_restart">पुन्हा सुरु करण्यासाठी टॅप करा </string>
+    <string name="enter_valid_url">वैध URL प्रविष्ट करा</string>
+    <string name="yes">होय</string>
+    <string name="cancel">नाही</string>
+    <string name="do_u_want_to_download_media_from_pvt">आपल्याला खात्री आहे की आपण खाजगी खात्यातून मीडिया डाउनलोड करू इच्छित नाही?</string>
+    <string name="download">डाउनलोड</string>
+    <string name="action_settings">सेटिंग</string>
+    <string name="storageheader">संचय परवानगी</string>
+    <string name="storagedescription">संचयन परवानगी अनिवार्य आहे, कृपया संचयनास परवानगी द्या.</string>
+    <string name="ok">ठीक आहे</string>
+    <string name="cancelpermission">रद्द करा</string>
+    <string name="downloadstab">डाउनलोड</string>
+    <string name="grantpermission">अनुदान</string>
+    <string name="allowpermission">कृपया संचयनास परवानगी द्या</string>
+    <string name="rateus">आम्हाला रेट करा</string>
+    <string name="shareapp">अँप सामायिक करा</string>
+    <string name="privacy">गोपनीयता धोरण</string>
+    <string name="copiedlink">कॉपी केलेला दुवा</string>
+    <string name="urlnotvalid">URL वैध नाही</string>
+    <string name="tapdownload">URL पेस्ट केली. डाउनलोड वर टॅप करा</string>
+    <string name="tapdownloadadded">URL जोडली. डाउनलोड वर टॅप करा</string>
+    <string name="alreadydownloading">आधीच डाउनलोड होत आहे</string>
+    <string name="downloading">डाउनलोड करत आहे ...</string>
+    <string name="download_complate">डाउनलोड पूर्ण</string>
+    <string name="alreadysaved">आधीच जतन केलेले</string>
+    <string name="nostatusavailable">कोणतीही स्थिती उपलब्ध नाही</string>
+    <string name="nosavedstatusavailable">जतन केलेली स्थिती उपलब्ध नाही</string>
+    <string name="mojins1">Moj उघडा आणि सामायिक करा वर टॅप करा</string>
+    <string name="mojins2">ड्युएट पर्यायावर टॅप करा</string>
+    <string name="mojins3">आता हे पूर्ण होईपर्यंत प्रतीक्षा करा</string>
+    <string name="mojins4">Moj डाउनलोडर अँप उघडा आणि आपला व्हिडिओ येथे आहे</string>
+    <string name="share_app">अँप सामायिक करा</string>
+    <string name="would_you_like_to_share_this_app_with_your_friends_they_might_also_enjoy_this">आपण आपल्या मित्रांसह हा अँप सामायिक करू इच्छिता? त्यांना कदाचित याचा आनंदही वाटेल</string>
+    <string name="auto_save">ऑटो सेव्ह</string>
+    <string name="turn_on_switch_to_download">डाउनलोड करण्यासाठी स्विच चालु करा </string>
+    <string name="instagram_private_videos">Instagram खाजगी व्हिडिओ</string>
+    <string name="download_from_private_account">खाजगी खात्यातून डाऊनलोड करा</string>
+    <string name="enter_or_paste_copied_url">कॉपी केलेला url प्रविष्ट करा किंवा पेस्ट करा</string>
+    <string name="share_video">सामायिक करा</string>
+    <string name="instruction">सूचना</string>
+    <string name="rate_the_app">अँपला रेट करा</string>
+    <string name="if_you_enjoy_using_this_10app_it_would_be_great_if_10you_rate_us_on_store">जर तुम्ही या अँपचा आनंद घेत असाल , तर स्टोरे वर जाऊन Rate  केला तर छान वाटेल </string>
+    <string name="how_to_save_moj_video">Moj व्हिडिओ कसा जतन करायचा? (पर्यायी)</string>
+    <string name="whatsapp_status_saver">व्हाट्सअँप स्टेटस सेव्हर</string>
+    <string name="whatsapp">व्हाट्सअँप</string>
+    <string name="instagram_stories">इंस्टाग्राम कथा</string>
+    <string name="login_to_download_stories">इन्स्टाग्राम वापरुन लॉगिन करा</string>
+    <string name="settings">अँप मोड</string>
+    <string name="whatsappcleaner">व्हाट्सएप क्लीनर</string>
+    <string name="nofilesavailable">कोणत्याही फायली उपलब्ध नाहीत</string>
+    <string name="whatsapp_cleaner">व्हाट्सएप क्लीनर</string>
+    <string name="paste">पेस्ट करा</string>
+    <string name="facebook_video_downloader">फेसबुक खाजगी व्हिडिओ</string>
+    <string name="fb_hint_1">फेसबुक वापरुन लॉगिन करा</string>
+    <string name="fb_hint_2">डाउनलोड करण्यासाठी कोणत्याही व्हिडिओंवर फक्त टॅप करा</string>
+    <string name="saved">जतन केलेले</string>
+    <string name="isRTL" translatable="false">false</string>
+    <string name="dir_name" translatable="false">@string/app_name</string>
+    <string name="dir_wa_folder" translatable="false">Whastapp Status</string>
+    <string name="dir_wab_folder" translatable="false">Whastappb Status</string>
+    <string name="nav_header_title" translatable="false">""</string>
+
+    <string name="hello_blank_fragment">हॅलो रिक्त तुकडा</string>
+    <string name="next">पुढे</string>
+    <string name="skip">वगळा</string>
+    <string name="start">प्रारंभ करा</string>
+    <string name="title_activity_main2">शीर्षक क्रियाकलाप</string>
+    <string name="navigation_drawer_open">नेव्हिगेशन ड्रॉवर खुला</string>
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद</string>
+
+    <string name="language">भाषा बदला</string>
+    <string name="change_lang">भाषा बदला</string>
+</resources>

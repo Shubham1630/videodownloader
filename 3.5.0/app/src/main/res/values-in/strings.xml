@@ -1,0 +1,102 @@
+<resources>
+
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!--<string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>-->
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="isRTL" translatable="false">false</string>
+
+    <string name="dir_name" translatable="false">@string/app_name</string>
+    <string name="dir_wa_folder" translatable="false">Whastapp Status</string>
+    <string name="dir_wab_folder" translatable="false">Whastappb Status</string>
+    <string name="tips_not_wifi" translatable="false">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel" translatable="false">Stop play</string>
+    <string name="tips_not_wifi_confirm" translatable="false">Resume</string>
+    <string name="all_in_one_video_downloader" translatable="false">All in one Video Downloader</string>
+    <string name="nav_header_title" translatable="false">""</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="arabic" translatable="false">Arabic</string>
+
+
+
+    <string name="menu_dashboard">Rumah</string>
+    <string name="apps">&amp;quot;&amp;quot;</string>
+    <string name="find_all">Aplikasi yang Didukung</string>
+    <string name="video_loading_faild">Temukan semua status yang diposting oleh kontak Anda di \\ n WhatsApp dan unduh dengan mudah.</string>
+    <string name="click_to_restart">Gagal</string>
+    <string name="enter_valid_url">Ketuk untuk Memulai Ulang</string>
+    <string name="yes">Masukkan url yang valid</string>
+    <string name="cancel">Ya</string>
+    <string name="do_u_want_to_download_media_from_pvt">Tidak</string>
+    <string name="download">Apakah Anda Yakin Tidak Ingin Mengunduh Media dari Akun Pribadi?</string>
+    <string name="action_settings">Unduh</string>
+    <string name="hello_blank_fragment">Pengaturan</string>
+    <string name="next">Halo fragmen kosong</string>
+    <string name="skip">SELANJUTNYA</string>
+    <string name="start">SKIP</string>
+    <string name="title_activity_main2">SELESAI</string>
+    <string name="navigation_drawer_open">Main2Activity</string>
+    <string name="navigation_drawer_close">laci navigasi terbuka</string>
+    <string name="storageheader">laci navigasi tutup</string>
+    <string name="storagedescription">Izin Penyimpanan</string>
+    <string name="ok">Izin penyimpanan wajib diisi, Izinkan Izin Penyimpanan.</string>
+    <string name="cancelpermission">OK</string>
+    <string name="stories">Batal</string>
+    <string name="downloadstab">Cerita</string>
+    <string name="grantpermission">Unduhan</string>
+    <string name="allowpermission">Hibah</string>
+    <string name="rateus">Harap Izinkan Izin Penyimpanan</string>
+    <string name="shareapp">Beri Nilai Kami</string>
+    <string name="privacy">Bagikan Aplikasi</string>
+    <string name="copiedlink">Kebijakan Privasi</string>
+    <string name="urlnotvalid">Tautan yang Disalin</string>
+    <string name="tapdownload">URL tidak valid</string>
+    <string name="tapdownloadadded">URL Disisipkan. Ketuk Unduh</string>
+    <string name="alreadydownloading">URL Ditambahkan. Ketuk Unduh</string>
+    <string name="downloading">Sudah mengunduh</string>
+    <string name="download_complate">Mendownload…</string>
+    <string name="alreadysaved">Unduhan Selesai</string>
+    <string name="nostatusavailable">Sudah disimpan</string>
+    <string name="nosavedstatusavailable">Status tidak tersedia</string>
+    <string name="mojins1">Tidak ada status tersimpan yang tersedia</string>
+    <string name="mojins2">Buka Moj dan ketuk Bagikan</string>
+    <string name="mojins3">Ketuk opsi Duet</string>
+    <string name="mojins4">Sekarang tunggu sampai selesai</string>
+    <string name="share_app">Buka aplikasi pengunduh Moj dan video Anda ada di sini</string>
+    <string name="would_you_like_to_share_this_app_with_your_friends_they_might_also_enjoy_this">Bagikan Aplikasi</string>
+    <string name="auto_save">Apakah Anda ingin berbagi aplikasi ini dengan teman-teman Anda? Mereka mungkin juga menikmati ini!</string>
+    <string name="turn_on_switch_to_download">Simpan Otomatis</string>
+    <string name="instagram_private_videos">Hidupkan Sakelar untuk Mengunduh</string>
+    <string name="download_from_private_account">Video Pribadi Instagram</string>
+    <string name="enter_or_paste_copied_url">Unduh Dari Akun Pribadi</string>
+    <string name="share_video">Masukkan atau Tempel Url yang Disalin</string>
+    <string name="instruction">Bagikan</string>
+    <string name="rate_the_app">Instruksi</string>
+    <string name="if_you_enjoy_using_this_10app_it_would_be_great_if_10you_rate_us_on_store">Beri Nilai Aplikasi</string>
+    <string name="share_the_app">Jika Anda menikmati menggunakan 10app ini. Akan lebih bagus jika Anda menilai kami di toko.</string>
+    <string name="would_you_like_to_share_10this_app_with_your_friends_10they_might_also_enjoy_this">Bagikan aplikasi!</string>
+    <string name="update_app">Apakah Anda ingin berbagi aplikasi 10this dengan teman-teman Anda? 10Mereka mungkin juga menikmati ini!</string>
+    <string name="please_update_the_app_to_enjoy_the_cool_new_features_we_have_added">Perbarui Aplikasi</string>
+    <string name="later">Perbarui aplikasi untuk menikmati fitur baru yang keren yang telah kami tambahkan.</string>
+    <string name="update">Nanti</string>
+    <string name="how_to_save_moj_video">Pembaruan</string>
+    <string name="whatsapp_status_saver">Bagaimana cara menyimpan Moj Video?</string>
+    <string name="whatsapp">Penghemat Status WhatsApp</string>
+    <string name="instagram_stories">WhatsApp</string>
+    <string name="login_to_download_stories">Cerita Instagram</string>
+    <string name="language">Masuk Untuk Mengunduh Cerita</string>
+    <string name="change_lang">Ubah Bahasa</string>
+    <string name="settings">Mode aplikasi</string>
+    <string name="whatsappcleaner">Pembersih Whatsapp</string>
+    <string name="whatsapp_cleaner">Pembersih Whatsapp</string>
+    <string name="nofilesavailable">Tidak Ada File yang Tersedia.</string>
+    <string name="apply">Menerapkan</string>
+    <string name="paste">Tempel</string>
+    <string name="facebook_video_downloader">Unduh Video Pribadi Facebook</string>
+    <string name="fb_hint_1">Masuk menggunakan Facebook</string>
+    <string name="fb_hint_2">Cukup Ketuk pada video apa saja untuk Diunduh</string>
+    <string name="saved">Diselamatkan</string>
+    <string name="videos">Video</string>
+    <string name="audios">Audio</string>
+</resources>

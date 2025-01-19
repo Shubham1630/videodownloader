@@ -1,0 +1,112 @@
+<resources>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!--<string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>-->
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="isRTL" translatable="false">false</string>
+    <string name="dir_name" translatable="false">@string/app_name</string>
+    <string name="dir_wa_folder" translatable="false">Whastapp Status</string>
+    <string name="dir_wab_folder" translatable="false">Whastappb Status</string>
+    <string name="tips_not_wifi" translatable="false">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel" translatable="false">Stop play</string>
+    <string name="tips_not_wifi_confirm" translatable="false">Resume</string>
+    <string name="all_in_one_video_downloader" translatable="false">All in one Video Downloader</string>
+    <string name="nav_header_title" translatable="false">""</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="tag_menu" translatable="false">menu</string>
+    <string name="tag_content" translatable="false">content</string>
+    <string name="indo" translatable="false">Indonesia</string>
+    <string name="menu_dashboard">الصفحة الرئيسية</string>
+    <string name="apps">التطبيقات المدعومة</string>
+    <string name="find_all">ابحث عن كل الحالة المنشورة بواسطة جهة الاتصال الخاصة بك عل n WhatsApp وقم بتنزيلها بسهولة.</string>
+    <string name="video_loading_faild">فشل</string>
+    <string name="click_to_restart">اضغط لإعادة التشغيل</string>
+    <string name="enter_valid_url">أدخل عنوان url صالحًا</string>
+    <string name="yes">نعم</string>
+    <string name="cancel">لا</string>
+    <string name="do_u_want_to_download_media_from_pvt">هل أنت متأكد أنك لا تريد تنزيل الوسائط من الحساب الخاص؟</string>
+    <string name="download">تحميل</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="start">تم</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">درج التنقل مفتوح</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+    <string name="storageheader">إذن التخزين</string>
+    <string name="storagedescription">إذن التخزين إلزامي ، يرجى السماح بإذن التخزين.</string>
+    <string name="ok">حسنًا</string>
+    <string name="cancelpermission">إلغاء</string>
+    <string name="stories">قصص</string>
+    <string name="downloadstab">التنزيلات</string>
+    <string name="grantpermission">منحة</string>
+    <string name="allowpermission">الرجاء السماح بإذن التخزين</string>
+    <string name="rateus">قيمنا</string>
+    <string name="shareapp">مشاركة التطبيق</string>
+    <string name="privacy">سياسة الخصوصية</string>
+    <string name="copiedlink">رابط منسوخ</string>
+    <string name="urlnotvalid">عنوان URL غير صالح</string>
+    <string name="tapdownload">عنوان URL الذي تم لصقه. اضغط على تنزيل</string>
+    <string name="tapdownloadadded">عنوان URL مضاف. اضغط على تنزيل</string>
+    <string name="alreadydownloading">جارٍ التنزيل بالفعل</string>
+    <string name="downloading">جارٍ التنزيل ...</string>
+    <string name="download_complate">اكتمل التنزيل</string>
+    <string name="alreadysaved">تم حفظها بالفعل</string>
+    <string name="nostatusavailable">لا توجد حالة متاحة</string>
+    <string name="nosavedstatusavailable">لا توجد حالة محفوظة متاحة</string>
+    <string name="mojins1">افتح Moj واضغط على Share</string>
+    <string name="mojins2">اضغط على خيار Duet</string>
+    <string name="mojins3">الآن انتظر حتى اكتمالها</string>
+    <string name="mojins4">افتح تطبيق Moj downloader وسيظهر الفيديو الخاص بك هنا</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="would_you_like_to_share_this_app_with_your_friends_they_might_also_enjoy_this">هل ترغب في مشاركة هذا التطبيق مع أصدقائك؟ قد يستمتعون أيضًا بهذا!</string>
+    <string name="auto_save">الحفظ التلقائي</string>
+    <string name="turn_on_switch_to_download">قم بتشغيل التبديل إلى التنزيل</string>
+    <string name="instagram_private_videos">مقاطع فيديو خاصة على Instagram</string>
+    <string name="download_from_private_account">تنزيل من حساب خاص</string>
+    <string name="enter_or_paste_copied_url">أدخل أو الصق عنوان Url المنسوخ</string>
+    <string name="share_video">شارك</string>
+    <string name="instruction">تعليمات</string>
+    <string name="rate_the_app">قيم التطبيق</string>
+    <string name="if_you_enjoy_using_this_10app_it_would_be_great_if_10you_rate_us_on_store">إذا كنت تستمتع باستخدام هذا 10app. سيكون رائعًا إذا قمت بتقييمنا في المتجر 10.</string>
+    <string name="share_the_app">شارك التطبيق!</string>
+    <string name="would_you_like_to_share_10this_app_with_your_friends_10they_might_also_enjoy_this">هل ترغب في مشاركة تطبيق 10this مع أصدقائك؟ 10 قد يستمتعون بهذا أيضًا!</string>
+    <string name="update_app">تحديث التطبيق</string>
+    <string name="please_update_the_app_to_enjoy_the_cool_new_features_we_have_added">يرجى تحديث التطبيق للاستمتاع بالميزات الجديدة الرائعة التي أضفناها.</string>
+    <string name="later">لاحقًا</string>
+    <string name="update">تحديث</string>
+    <string name="how_to_save_moj_video">كيفية حفظ Moj Video؟</string>
+    <string name="whatsapp_status_saver">تطبيق WhatsApp Status Saver</string>
+    <string name="whatsapp">ال WhatsApp</string>
+    <string name="instagram_stories">Instagram Stories Saver</string>
+    <string name="login_to_download_stories">تسجيل الدخول باستخدام Instagram</string>
+    <string name="language">تغيير اللغة</string>
+    <string name="change_lang">تغيير اللغة</string>
+    <string name="itali" translatable="false">Itali</string>
+    <string name="korea" translatable="false">Korea</string>
+    <!-- Preference Titles -->
+    <string name="ui" translatable="false">UI</string>
+    <string name="dark_mode" translatable="false">Dark Mode</string>
+    <string name="dark_mode_def_value" translatable="false">MODE_NIGHT_FOLLOW_SYSTEM</string>
+
+    <string name="image_for_representational_purpose" translatable="false">Image for representational purpose</string>
+    <string name="default_theme" translatable="false">Follow System Dark Mode</string>
+
+    <string name="light" translatable="false">Light Mode</string>
+    <string name="autobattery" translatable="false">Auto Battery Dark mode</string>
+
+    <string name="settings">وضع التطبيق</string>
+    <string name="whatsappcleaner">منظف Whatsapp</string>
+    <string name="nofilesavailable">لا توجد ملفات.</string>
+    <string name="whatsapp_cleaner">منظف Whatsapp</string>
+    <string name="apply">تطبيق</string>
+    <string name="paste">لصق</string>
+    <string name="facebook_video_downloader">تنزيل الفيديو الخاص من Facebook</string>
+    <string name="fb_hint_1">تسجيل الدخول باستخدام Facebook</string>
+    <string name="fb_hint_2">فقط اضغط على أي مقاطع فيديو لتنزيلها</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="videos">أشرطة فيديو</string>
+    <string name="audios">صوتيات</string>
+</resources>

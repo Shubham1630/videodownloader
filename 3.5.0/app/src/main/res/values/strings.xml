@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name" translatable="false">Video Downloader</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!--<string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>-->
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="isRTL" translatable="false">false</string>
+    <!--AdMob Ids-->
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-3720705770569502/3575779128</string>
+    <string name="banner_ad_units_id1" translatable="false">ca-app-pub-3720705770569502/8636534116</string>
+    <string name="admobinitid" translatable="false">ca-app-pub-3720705770569502~9019677497</string>
+    <string name="admobappopenid" translatable="false">ca-app-pub-3720705770569502/1412515131</string>
+    <!--Facebook Ids-->
+    <string name="fbinter" translatable="false">YOUR FACEBOOK INTERTITIAL ID HERE</string>
+    <string name="fbbanner" translatable="false">YOUR FACEBOOK BANNER ID HERE</string>
+
+<!--    <string name="unityGameID" translatable="false">3860739</string>-->
+    <string name="dir_name" translatable="false">@string/app_name</string>
+    <string name="dir_wa_folder" translatable="false">Whastapp Status</string>
+    <string name="dir_wab_folder" translatable="false">Whastappb Status</string>
+    <string name="tips_not_wifi" translatable="false">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel" translatable="false">Stop play</string>
+    <string name="tips_not_wifi_confirm" translatable="false">Resume</string>
+    <string name="all_in_one_video_downloader" translatable="false">All in one Video Downloader</string>
+    <string name="nav_header_title" translatable="false">""</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="marathi" translatable="false">Marathi</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="tag_menu" translatable="false">menu</string>
+    <string name="tag_content" translatable="false">content</string>
+    <string name="indo" translatable="false">Indonesia</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="menu_dashboard">Home</string>
+    <string name="apps">Supported Apps</string>
+    <string name="find_all">Find all status posted by your contact on\n WhatsApp and easily download it.</string>
+    <string name="video_loading_faild">Failed</string>
+    <string name="click_to_restart">Tap to Restart</string>
+    <string name="enter_valid_url">Enter valid url</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">No</string>
+    <string name="do_u_want_to_download_media_from_pvt">Are you sure you Don\'t Want to Download Media from Private Account?</string>
+    <string name="download">Download</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">DONE</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="storageheader">Storage Permission</string>
+    <string name="storagedescription">Storage permission is mandatory, Please Allow Storage Permission.</string>
+    <string name="ok">OK</string>
+    <string name="cancelpermission">Cancel</string>
+    <string name="stories">Stories</string>
+    <string name="downloadstab">Downloads</string>
+    <string name="grantpermission">Grant</string>
+    <string name="allowpermission">Please Allow Storage Permission</string>
+    <string name="rateus">Rate Us</string>
+    <string name="shareapp">Share App</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="copiedlink">Copied Link</string>
+    <string name="urlnotvalid">URL not valid</string>
+    <string name="tapdownload">URL Pasted. Tap on Download</string>
+    <string name="tapdownloadadded">URL Added. Tap on Download</string>
+    <string name="alreadydownloading">Already downloading</string>
+    <string name="downloading">Downloading…</string>
+    <string name="download_complate">Download Complete</string>
+    <string name="alreadysaved">Already saved</string>
+    <string name="nostatusavailable">No status available</string>
+    <string name="nosavedstatusavailable">No saved status available</string>
+    <string name="mojins1">Open Moj and tap on Share </string>
+    <string name="mojins2">Tap on Duet option</string>
+    <string name="mojins3">Now wait till its complete </string>
+    <string name="mojins4">Open Moj downloader app and your video is here</string>
+    <string name="share_app">Share App</string>
+    <string name="would_you_like_to_share_this_app_with_your_friends_they_might_also_enjoy_this">Would you like to share this app with your friends? They might also enjoy this!</string>
+    <string name="auto_save">Auto Save</string>
+    <string name="turn_on_switch_to_download">Turn on Switch to Download</string>
+    <string name="instagram_private_videos">Instagram Private Videos</string>
+    <string name="download_from_private_account">Download From Private Account</string>
+    <string name="enter_or_paste_copied_url">Enter or Paste Copied Url</string>
+    <string name="share_video">Share</string>
+    <string name="instruction">Instruction</string>
+    <string name="rate_the_app">Rate The App</string>
+    <string name="if_you_enjoy_using_this_10app_it_would_be_great_if_10you_rate_us_on_store">If you enjoy using this 10app. It would be great if 10you rate us on store.</string>
+    <string name="share_the_app">Share the app!</string>
+    <string name="would_you_like_to_share_10this_app_with_your_friends_10they_might_also_enjoy_this">Would you like to share 10this app with your friends? 10They might also enjoy this!</string>
+    <string name="update_app">Update App</string>
+    <string name="please_update_the_app_to_enjoy_the_cool_new_features_we_have_added">Please update the app to enjoy the cool new features we have added.</string>
+    <string name="later">Later</string>
+    <string name="update">Update</string>
+    <string name="how_to_save_moj_video">How to save Moj Video?(Alternative)</string>
+    <string name="whatsapp_status_saver">WhatsApp Status Saver</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="instagram_stories">Instagram Stories Saver</string>
+    <string name="login_to_download_stories">Login Using Instagram</string>
+    <string name="language">Change Language</string>
+    <string name="change_lang">Change Language</string>
+    <string name="itali" translatable="false">Itali</string>
+    <string name="korea" translatable="false">Korea</string>
+    <!-- Preference Titles -->
+    <string name="ui" translatable="false">UI</string>
+    <string name="dark_mode" translatable="false">Dark Mode</string>
+<!--    <string name="dark_mode_def_value" translatable="false">MODE_NIGHT_YES</string>-->
+    <string name="dark_mode_def_value" translatable="false">MODE_NIGHT_FOLLOW_SYSTEM</string>
+
+    <string name="image_for_representational_purpose" translatable="false">Image for representational purpose</string>
+    <string name="default_theme" translatable="false">Follow System Dark Mode</string>
+
+    <string name="light" translatable="false">Light Mode</string>
+    <string name="autobattery" translatable="false">Auto Battery Dark mode</string>
+
+    <string name="settings">App Mode</string>
+    <string name="whatsappcleaner">Whatsapp Cleaner</string>
+    <string name="nofilesavailable">No Files Available.</string>
+    <string name="whatsapp_cleaner">Whatsapp Cleaner</string>
+    <string name="apply">Apply</string>
+    <string name="paste">Paste</string>
+    <string name="facebook_video_downloader">Facebook Private Videos</string>
+    <string name="fb_hint_1">Login using Facebook</string>
+    <string name="fb_hint_2">Just Tap on any videos to Download</string>
+
+    <string name="popup_menu_cancel" translatable="false">Cancel</string>
+    <string name="popup_menu_delete" translatable="false">Delete</string>
+    <string name="popup_menu_details" translatable="false">Details</string>
+    <string name="saved">Saved</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="zeropercent" translatable="false">0%</string>
+    <string name="video_found" translatable="false">Video found</string>
+    <string name="hd_video_download" translatable="false">HD Video Download</string>
+    <string name="sd_video_download" translatable="false">SD Video Download</string>
+    <string name="watch_video" translatable="false">Watch video</string>
+    <string name="purchase" translatable="false">Purchase</string>
+    <string name="payment_success" translatable="false">Payment successful</string>
+    <string name="default_price" translatable="false">$ 4.99</string>
+    <string name="videos">Videos</string>
+    <string name="audios">Audios</string>
+    <string name="no_internet_connection" > No Internet</string>
+    <string name="likes">Likes</string>
+    <string name="second_ago"> sec ago</string>
+    <string name="minutes_ago"> min ago</string>
+    <string name="day_ago"> day ago</string>
+    <string name="hours_ago"> hr ago</string>
+    <string name="search_user">Search User</string>
+    <string name="no_result_found" > No Result Found </string>
+    <string name="please_enter_user_name" >Please Enter User Name</string>
+    <string name="load_more" >Load More</string>
+    <string name="feed" >Feed</string>
+    <string name="story" >Story</string>
+    <string name="igtv" >igtv</string>
+    <string name="enter_url">Enter Url</string>
+    <string name="no_net_conn">No Internet Connection</string>
+
+</resources>
+
+
+
+

@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!--<string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>-->
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="isRTL" translatable="false">false</string>
+
+    <string name="dir_name" translatable="false">@string/app_name</string>
+    <string name="dir_wa_folder" translatable="false">Whastapp Status</string>
+    <string name="dir_wab_folder" translatable="false">Whastappb Status</string>
+    <string name="tips_not_wifi" translatable="false">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel" translatable="false">Stop play</string>
+    <string name="tips_not_wifi_confirm" translatable="false">Resume</string>
+    <string name="all_in_one_video_downloader" translatable="false">All in one Video Downloader</string>
+    <string name="nav_header_title" translatable="false">""</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="arabic" translatable="false">Arabic</string>
+
+
+
+    <string name="menu_dashboard">홈</string>
+    <string name="apps">&amp;quot;&amp;quot;</string>
+    <string name="find_all">지원되는 앱</string>
+    <string name="video_loading_faild">WhatsApp에서 연락처가 게시 한 모든 상태를 \\ n 찾아 쉽게 다운로드 할 수 있습니다.</string>
+    <string name="click_to_restart">실패</string>
+    <string name="enter_valid_url">다시 시작하려면 탭하세요</string>
+    <string name="yes">유효한 URL 입력</string>
+    <string name="cancel">예</string>
+    <string name="do_u_want_to_download_media_from_pvt">아니</string>
+    <string name="download">개인 계정에서 미디어를 다운로드하지 않으시겠습니까?</string>
+    <string name="action_settings">다운로드</string>
+    <string name="hello_blank_fragment">설정</string>
+    <string name="next">안녕하세요 빈 조각</string>
+    <string name="skip">다음</string>
+    <string name="start">건너 뛰기</string>
+    <string name="title_activity_main2">완료</string>
+    <string name="navigation_drawer_open">Main2Activity</string>
+    <string name="navigation_drawer_close">탐색 서랍 열림</string>
+    <string name="storageheader">탐색 서랍 닫기</string>
+    <string name="storagedescription">저장 권한</string>
+    <string name="ok">저장 권한은 필수입니다. 저장 권한을 허용하십시오.</string>
+    <string name="cancelpermission">확인</string>
+    <string name="stories">취소</string>
+    <string name="downloadstab">이야기</string>
+    <string name="grantpermission">다운로드</string>
+    <string name="allowpermission">그랜트</string>
+    <string name="rateus">저장 권한을 허용하십시오</string>
+    <string name="shareapp">우리를 평가</string>
+    <string name="privacy">앱 공유</string>
+    <string name="copiedlink">개인 정보 보호 정책</string>
+    <string name="urlnotvalid">복사 된 링크</string>
+    <string name="tapdownload">URL이 유효하지 않습니다.</string>
+    <string name="tapdownloadadded">URL 붙여 넣기. 다운로드를 탭하십시오</string>
+    <string name="alreadydownloading">URL이 추가되었습니다. 다운로드를 탭하십시오</string>
+    <string name="downloading">이미 다운로드 중</string>
+    <string name="download_complate">다운로드 중…</string>
+    <string name="alreadysaved">다운로드 완료</string>
+    <string name="nostatusavailable">이미 저장 됨</string>
+    <string name="nosavedstatusavailable">사용 가능한 상태 없음</string>
+    <string name="mojins1">사용 가능한 저장된 상태 없음</string>
+    <string name="mojins2">Moj를 열고 공유를 탭하세요</string>
+    <string name="mojins3">듀엣 옵션 탭</string>
+    <string name="mojins4">이제 완료 될 때까지 기다리십시오</string>
+    <string name="share_app">Moj 다운로더 앱을 열고 동영상이 여기에 있습니다.</string>
+    <string name="would_you_like_to_share_this_app_with_your_friends_they_might_also_enjoy_this">앱 공유</string>
+    <string name="auto_save">이 앱을 친구들과 공유 하시겠습니까? 그들은 또한 이것을 즐길 수 있습니다!</string>
+    <string name="turn_on_switch_to_download">자동 저장</string>
+    <string name="instagram_private_videos">스위치를 켜서 다운로드</string>
+    <string name="download_from_private_account">Instagram 비공개 동영상</string>
+    <string name="enter_or_paste_copied_url">개인 계정에서 다운로드</string>
+    <string name="share_video">복사 한 URL 입력 또는 붙여 넣기</string>
+    <string name="instruction">공유</string>
+    <string name="rate_the_app">명령</string>
+    <string name="if_you_enjoy_using_this_10app_it_would_be_great_if_10you_rate_us_on_store">앱 평가</string>
+    <string name="share_the_app">이 10 앱을 즐겁게 사용한다면. 매장에서 우리를 평가하면 좋을 것입니다.</string>
+    <string name="would_you_like_to_share_10this_app_with_your_friends_10they_might_also_enjoy_this">앱 공유!</string>
+    <string name="update_app">10이 앱을 친구들과 공유 하시겠습니까? 10 그들은 또한 이것을 즐길 수 있습니다!</string>
+    <string name="please_update_the_app_to_enjoy_the_cool_new_features_we_have_added">앱 업데이트</string>
+    <string name="later">추가 된 멋진 새 기능을 즐기려면 앱을 업데이트하세요.</string>
+    <string name="update">나중</string>
+    <string name="how_to_save_moj_video">업데이트</string>
+    <string name="whatsapp_status_saver">Moj 비디오 저장 방법?</string>
+    <string name="whatsapp">WhatsApp 상태 보호기</string>
+    <string name="instagram_stories">WhatsApp</string>
+    <string name="login_to_download_stories">인스 타 그램 스토리</string>
+    <string name="language">스토리를 다운로드하려면 로그인</string>
+    <string name="change_lang">언어 변경</string>
+    <string name="apply">앱 모드</string>
+    <string name="whatsapp_cleaner">Whatsapp 클리너</string>
+    <string name="nofilesavailable">사용 가능한 파일이 없습니다.</string>
+    <string name="whatsappcleaner">Whatsapp 클리너</string>
+    <string name="settings">앱 모드</string>
+    <string name="paste">풀</string>
+    <string name="facebook_video_downloader">Facebook 비공개 동영상 다운로드</string>
+    <string name="fb_hint_1">Facebook을 사용하여 로그인</string>
+    <string name="fb_hint_2">다운로드 할 동영상을 탭하기 만하면됩니다.</string>
+    <string name="saved">저장 됨</string>
+    <string name="videos">동영상</string>
+    <string name="audios">오디오</string>
+</resources>

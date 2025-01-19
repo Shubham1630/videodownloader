@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Gray">#e2e2e2</color>
+    <!--<color name="colorAccent">#ff5353</color>-->
+    <color name="colorAccent">@color/tabSelectedIconColor</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#e3e3e5</color>
+    <color name="white">#ffffff</color>
+    <color name="blck">#000000</color>
+    <color name="appbgcolor">#F2181A25</color>
+    <color name="btncolor">#FE2E56</color>
+    <color name="titletext">#575b65</color>
+    <color name="light_textcol">#858a92</color>
+    <color name="bg_card">#f4f7fc</color>
+    <color name="light_vd">#ffcd7b</color>
+    <color name="vd_col">#ffb932</color>
+
+    <color name="fontcolor">#5a5a5a</color>
+    <color name="transparent">#00000000</color>
+    <color name="tabSelectedIconColor">@color/vd_col</color>
+    <color name="tabUnselectedIconColor">#bdc3c7</color>
+    <color name="black">#000000</color>
+    <color name="setTitleAndDescTextColors">#000000</color>
+    <color name="setButtonTextColor">#ffffff</color>
+    <color name="setTitleTextColor">#ffffff</color>
+    <color name="toolbarcolor">#ffffff</color>
+    <color name="bottombgcolor">#ffffff</color>
+    <color name="iconTintActive">#ffffff</color>
+    <color name="textColor">#ffffff</color>
+    <color name="framebgcolor">#eff2f7</color>
+    <color name="drawerbg">#ffffff</color>
+    <color name="splashtextcolor">#000000</color>
+   <color name="progress_primary">@color/white</color>
+    <color name="progress_secondary">@color/gray_scale</color>
+    <color name="progress_max_active">@color/white</color>
+
+
+   <!-- <color name="progress_primary">#ffb932</color>
+    <color name="progress_secondary">#40FFB932</color>
+    <color name="progress_max_active">#ffb932</color>-->
+
+    <color name="gray_scale">#8affffff</color>
+    <color name="instastorycentercolor">#FD2E7E</color>
+    <color name="instastoryendcolor">#B250DD</color>
+    <color name="instastorystartcolor">#FDB43F</color>
+    <color name="shimmerhighlightcolor">#e2e2e2</color>
+
+
+    <color name="colorPaused">#FFC107</color>
+    <color name="colorFailed">#E91E63</color>
+    <color name="colorCanceled">#808080</color>
+    <color name="line_color">#dddddd</color>
+    <color name="main_color">#1ba1fc</color>
+    <color name="titleText">#575b65</color>
+    <color name="splashTextColor">#000000</color>
+
+</resources>

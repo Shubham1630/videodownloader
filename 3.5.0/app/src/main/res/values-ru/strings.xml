@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="isRTL" translatable="false">false</string>
+
+
+
+    <string name="unityGameID" translatable="false">3860739</string>
+    <string name="dir_name" translatable="false">@string/app_name</string>
+    <string name="dir_wa_folder" translatable="false">Whastapp Status</string>
+    <string name="dir_wab_folder" translatable="false">Whastappb Status</string>
+    <string name="tips_not_wifi" translatable="false">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel" translatable="false">Stop play</string>
+    <string name="tips_not_wifi_confirm" translatable="false">Resume</string>
+    <string name="all_in_one_video_downloader" translatable="false">All in one Video Downloader</string>
+    <string name="nav_header_title" translatable="false">""</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="tag_menu" translatable="false">menu</string>
+    <string name="tag_content" translatable="false">content</string>
+    <string name="indo" translatable="false">Indonesia</string>
+    <string name="menu_dashboard">Главная</string>
+    <string name="apps">Поддерживаемые приложения</string>
+    <string name="find_all">Найдите все статусы, опубликованные вашим контактом в \nWhatsApp, и легко загрузите их.</string>
+    <string name="video_loading_faild">Не удалось</string>
+    <string name="click_to_restart">Нажмите, чтобы перезапустить</string>
+    <string name="enter_valid_url">Введите действующий URL</string>
+    <string name="yes">да</string>
+    <string name="cancel">Нет</string>
+    <string name="do_u_want_to_download_media_from_pvt">Вы уверены, что не хотите загружать медиафайлы из личного кабинета?</string>
+    <string name="download">Скачать</string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+    <string name="next">СЛЕДУЮЩИЙ</string>
+    <string name="skip">ПРОПУСКАТЬ</string>
+    <string name="start">СДЕЛАННЫЙ</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">ящик навигации открыт</string>
+    <string name="navigation_drawer_close">панель навигации закрыть</string>
+    <string name="storageheader">Разрешение на хранение</string>
+    <string name="storagedescription">Разрешение на хранение является обязательным, пожалуйста, разрешите разрешение на хранение.</string>
+    <string name="ok">Хорошо</string>
+    <string name="cancelpermission">отменить</string>
+    <string name="stories">Истории</string>
+    <string name="downloadstab">Загрузки</string>
+    <string name="grantpermission">Грант</string>
+    <string name="allowpermission">Разрешите разрешение на хранение</string>
+    <string name="rateus">Оцените нас</string>
+    <string name="shareapp">Поделиться приложением</string>
+    <string name="privacy">политика конфиденциальности</string>
+    <string name="copiedlink">Скопированная ссылка</string>
+    <string name="urlnotvalid">URL недействителен</string>
+    <string name="tapdownload">URL вставлен. Нажмите на Скачать</string>
+    <string name="tapdownloadadded">URL добавлен. Нажмите на Скачать</string>
+    <string name="alreadydownloading">Уже скачивает</string>
+    <string name="downloading">Скачивание…</string>
+    <string name="download_complate">Загрузка завершена</string>
+    <string name="alreadysaved">Уже сохранено</string>
+    <string name="nostatusavailable">Статус недоступен</string>
+    <string name="nosavedstatusavailable">Нет сохраненного статуса</string>
+    <string name="mojins1">Откройте "Мой" и нажмите "Поделиться"</string>
+    <string name="mojins2">Нажмите на опцию Duet</string>
+    <string name="mojins3">Теперь дождитесь его завершения</string>
+    <string name="mojins4">Откройте приложение-загрузчик Moj, и ваше видео уже здесь.</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="would_you_like_to_share_this_app_with_your_friends_they_might_also_enjoy_this">Хотите поделиться этим приложением со своими друзьями? Им тоже может понравиться это!</string>
+    <string name="auto_save">Автосохранение</string>
+    <string name="turn_on_switch_to_download">Загружать видео из приложений автоматически</string>
+    <string name="instagram_private_videos">Частные видео в Instagram</string>
+    <string name="download_from_private_account">Скачать из личного кабинета</string>
+    <string name="enter_or_paste_copied_url">Введите ссылку url</string>
+    <string name="share_video">Поделиться</string>
+    <string name="instruction">Инструкция</string>
+    <string name="rate_the_app">Оцените приложение</string>
+    <string name="if_you_enjoy_using_this_10app_it_would_be_great_if_10you_rate_us_on_store">Если вам нравится использовать этот 10app. Было бы здорово, если бы вы оценили нас в магазине.</string>
+    <string name="share_the_app">Поделитесь приложением!</string>
+    <string name="would_you_like_to_share_10this_app_with_your_friends_10they_might_also_enjoy_this">Хотите поделиться 10этим приложением со своими друзьями? 10Это им тоже может понравиться!</string>
+    <string name="update_app">Обновить приложение</string>
+    <string name="please_update_the_app_to_enjoy_the_cool_new_features_we_have_added">Обновите приложение, чтобы пользоваться новыми интересными функциями, которые мы добавили.</string>
+    <string name="later">Позже</string>
+    <string name="update">Обновить</string>
+    <string name="how_to_save_moj_video">Как сохранить мое видео?</string>
+    <string name="whatsapp_status_saver">WhatsApp Status Saver</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="instagram_stories">Хранитель историй Instagram</string>
+    <string name="login_to_download_stories">Войти через Instagram</string>
+    <string name="language">Изменить язык</string>
+    <string name="change_lang">Изменить язык</string>
+    <string name="itali" translatable="false">Itali</string>
+    <string name="korea" translatable="false">Korea</string>
+
+    <string name="ui" translatable="false">UI</string>
+    <string name="dark_mode">Темный Фон</string>
+    <string name="dark_mode_def_value" translatable="false">MODE_NIGHT_FOLLOW_SYSTEM</string>
+
+    <string name="image_for_representational_purpose" translatable="false">Image for representational purpose</string>
+    <string name="default_theme">По Умолчанию</string>
+
+    <string name="light">Светлый Фон</string>
+    <string name="autobattery">Режим Энергосбережения</string>
+
+    <string name="settings">Режим приложения</string>
+    <string name="whatsappcleaner">WhatsApp Cleaner</string>
+    <string name="nofilesavailable">Нет доступных файлов.</string>
+    <string name="whatsapp_cleaner">WhatsApp Cleaner</string>
+    <string name="apply">Применять</string>
+    <string name="paste">Вставить</string>
+    <string name="facebook_video_downloader">Facebook Private Video Download</string>
+    <string name="fb_hint_1">Войти через Facebook</string>
+    <string name="fb_hint_2">Просто нажмите на любое видео, чтобы скачать</string>
+    <string name="saved">Сохранено</string>
+    <string name="videos">Видео</string>
+    <string name="audios">Аудио</string>
+
+</resources>

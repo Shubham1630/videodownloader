@@ -1,0 +1,102 @@
+<resources>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!--<string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>-->
+    <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="isRTL" translatable="false">false</string>
+
+    <string name="dir_name" translatable="false">@string/app_name</string>
+    <string name="dir_wa_folder" translatable="false">Whastapp Status</string>
+    <string name="dir_wab_folder" translatable="false">Whastappb Status</string>
+    <string name="tips_not_wifi" translatable="false">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel" translatable="false">Stop play</string>
+    <string name="tips_not_wifi_confirm" translatable="false">Resume</string>
+    <string name="all_in_one_video_downloader" translatable="false">All in one Video Downloader</string>
+    <string name="nav_header_title" translatable="false">""</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">Hindi</string>
+    <string name="arabic" translatable="false">Arabic</string>
+
+
+
+    <string name="menu_dashboard">Casa</string>
+    <string name="apps">&amp;quot;&amp;quot;</string>
+    <string name="find_all">App supportate</string>
+    <string name="video_loading_faild">Trova tutti gli stati pubblicati dal tuo contatto su \\ n WhatsApp e scaricalo facilmente.</string>
+    <string name="click_to_restart">Fallito</string>
+    <string name="enter_valid_url">Tocca per riavviare</string>
+    <string name="yes">Inserisci un URL valido</string>
+    <string name="cancel">Sì</string>
+    <string name="do_u_want_to_download_media_from_pvt">No</string>
+    <string name="download">Sei sicuro di non voler scaricare file multimediali da un account privato?</string>
+    <string name="action_settings">Scarica</string>
+    <string name="hello_blank_fragment">Impostazioni</string>
+    <string name="next">Ciao frammento vuoto</string>
+    <string name="skip">NEXT</string>
+    <string name="start">SKIP</string>
+    <string name="title_activity_main2">FATTO</string>
+    <string name="navigation_drawer_open">Main2Activity</string>
+    <string name="navigation_drawer_close">cassetto di navigazione aperto</string>
+    <string name="storageheader">cassetto di navigazione chiuso</string>
+    <string name="storagedescription">Autorizzazione all&amp;#x27;archiviazione</string>
+    <string name="ok">Il permesso di archiviazione è obbligatorio, si prega di consentire l&amp;#x27;autorizzazione di archiviazione.</string>
+    <string name="cancelpermission">OK</string>
+    <string name="stories">Annulla</string>
+    <string name="downloadstab">Storie</string>
+    <string name="grantpermission">Download</string>
+    <string name="allowpermission">Grant</string>
+    <string name="rateus">Consenti autorizzazione di archiviazione</string>
+    <string name="shareapp">Valutaci</string>
+    <string name="privacy">Condividi app</string>
+    <string name="copiedlink">Informativa sulla privacy</string>
+    <string name="urlnotvalid">Link copiato</string>
+    <string name="tapdownload">URL non valido</string>
+    <string name="tapdownloadadded">URL incollato. Tocca Scarica</string>
+    <string name="alreadydownloading">URL aggiunto. Tocca Scarica</string>
+    <string name="downloading">Sto già scaricando</string>
+    <string name="download_complate">Download in corso ...</string>
+    <string name="alreadysaved">Download completato</string>
+    <string name="nostatusavailable">Già salvato</string>
+    <string name="nosavedstatusavailable">Nessuno stato disponibile</string>
+    <string name="mojins1">Nessuno stato salvato disponibile</string>
+    <string name="mojins2">Apri Moj e tocca Condividi</string>
+    <string name="mojins3">Tocca l&amp;#x27;opzione Duet</string>
+    <string name="mojins4">Ora aspetta che sia completo</string>
+    <string name="share_app">Apri l&amp;#x27;app per il download di Moj e il tuo video è qui</string>
+    <string name="would_you_like_to_share_this_app_with_your_friends_they_might_also_enjoy_this">Condividi app</string>
+    <string name="auto_save">Vorresti condividere questa app con i tuoi amici? Potrebbero anche apprezzarlo!</string>
+    <string name="turn_on_switch_to_download">Salvataggio automatico</string>
+    <string name="instagram_private_videos">Attiva Passa a download</string>
+    <string name="download_from_private_account">video privati ​​di Instagram</string>
+    <string name="enter_or_paste_copied_url">Scarica da account privato</string>
+    <string name="share_video">Immettere o incollare l&amp;#x27;URL copiato</string>
+    <string name="instruction">Condividi</string>
+    <string name="rate_the_app">Istruzione</string>
+    <string name="if_you_enjoy_using_this_10app_it_would_be_great_if_10you_rate_us_on_store">Valuta l&amp;#x27;app</string>
+    <string name="share_the_app">Se ti piace usare questa 10app. Sarebbe fantastico se ci valutassi in negozio.</string>
+    <string name="would_you_like_to_share_10this_app_with_your_friends_10they_might_also_enjoy_this">Condividi l&amp;#x27;app!</string>
+    <string name="update_app">Vorresti condividere 10questa app con i tuoi amici? 10Potrebbero anche apprezzare questo!</string>
+    <string name="please_update_the_app_to_enjoy_the_cool_new_features_we_have_added">Aggiorna app</string>
+    <string name="later">Aggiorna l&amp;#x27;app per goderti le nuove fantastiche funzionalità che abbiamo aggiunto.</string>
+    <string name="update">Più tardi</string>
+    <string name="how_to_save_moj_video">Aggiorna</string>
+    <string name="whatsapp_status_saver">Come salvare Moj Video?</string>
+    <string name="whatsapp">WhatsApp Status Saver</string>
+    <string name="instagram_stories">WhatsApp</string>
+    <string name="login_to_download_stories">Storie di Instagram</string>
+    <string name="language">Accedi per scaricare le storie</string>
+    <string name="change_lang">Cambia lingua</string>
+    <string name="settings">Modalità app</string>
+    <string name="whatsappcleaner">Whatsapp Cleaner</string>
+    <string name="nofilesavailable">Nessun file disponibile.</string>
+    <string name="whatsapp_cleaner">Whatsapp Cleaner</string>
+    <string name="apply">Applicare</string>
+    <string name="paste">Incolla</string>
+    <string name="facebook_video_downloader">Download di video privati di Facebook</string>
+    <string name="fb_hint_1">Accedi utilizzando Facebook</string>
+    <string name="fb_hint_2">Basta toccare qualsiasi video da scaricare</string>
+    <string name="saved">Salvato</string>
+    <string name="videos">Video</string>
+    <string name="audios">Audio</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_translate"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/local_english"
+                android:title="@string/english" />
+            <item
+                android:id="@+id/local_marathi"
+                android:title="@string/marathi" />
+            <item
+                android:id="@+id/local_hindi"
+                android:title="@string/hindi" />
+            <item
+                android:id="@+id/local_korea"
+                android:title="@string/korea" />
+            <item
+                android:id="@+id/local_itali"
+                android:title="@string/itali" />
+            <item
+                android:id="@+id/local_indo"
+                android:title="@string/indo" />
+            <item
+                android:id="@+id/local_arabic"
+                android:title="@string/arabic" />
+            <item
+                android:id="@+id/local_Russian"
+                android:title="@string/russian" />
+        </menu>
+    </item>
+</menu>

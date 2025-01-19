@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.allinone.videosaver.free.djobbuzz.allinonevideodownloader.utility.RCRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_dialog_back"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="18dp"
+                    android:gravity="center"
+                    android:text="@string/video_found"
+                    android:textColor="@color/splashtextcolor"
+                    android:textDirection="locale"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="@color/line_color"
+                    android:visibility="gone" />
+
+                <ProgressBar
+                    android:id="@+id/pb_progress"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:indeterminateDuration="1500"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_item_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_container_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/download_item_height"
+                        android:background="@drawable/download_item_background"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingLeft="22dp"
+                        android:paddingRight="22dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/hd_video_download"
+                                android:textColor="@color/black"
+                                android:textDirection="locale"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="26dp"
+                                android:layout_marginTop="4dp"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <ProgressBar
+                                    android:id="@+id/pb_progress_1"
+                                    android:layout_width="22dp"
+                                    android:layout_height="22dp"
+                                    android:indeterminateTint="@color/main_color" />
+
+                                <TextView
+                                    android:id="@+id/tv_size_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textDirection="locale"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/img_hd_download"
+                            android:padding="2dp"
+                            android:layout_width="@dimen/download_item_img_size"
+                            android:layout_height="@dimen/download_item_img_size"
+                            android:src="@drawable/ic_download_video"
+                            android:visibility="gone"
+                            app:tint="@color/black" />
+                        <ImageView
+                            android:id="@+id/img_hd_watch"
+                            android:padding="2dp"
+                            android:layout_width="@dimen/download_item_img_size"
+                            android:layout_height="@dimen/download_item_img_size"
+                            app:tint="@color/black"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:visibility="gone" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_progress_hd"
+                            android:layout_width="@dimen/download_item_img_size"
+                            android:layout_height="@dimen/download_item_img_size"
+                            android:indeterminateDrawable="@drawable/progress_fbdownload_dialog"
+                            android:indeterminateDuration="1500"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_container_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/download_item_height"
+                        android:background="@drawable/download_item_background"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingLeft="22dp"
+                        android:paddingRight="22dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sd_video_download"
+                                android:textColor="@color/black"
+                                android:textDirection="locale"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="26dp"
+                                android:layout_marginTop="4dp"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <ProgressBar
+                                    android:id="@+id/pb_progress_2"
+                                    android:layout_width="22dp"
+                                    android:layout_height="22dp"
+                                    android:indeterminateTint="@color/main_color" />
+
+                                <TextView
+                                    android:id="@+id/tv_size_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textDirection="locale"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/img_sd_download"
+                            android:layout_width="@dimen/download_item_img_size"
+                            android:padding="2dp"
+                            app:tint="@color/black"
+                            android:layout_height="@dimen/download_item_img_size"
+                            android:src="@drawable/ic_download_video"
+                            android:visibility="gone"
+                             />
+                        <ImageView
+                            android:id="@+id/img_sd_watch"
+                            android:padding="2dp"
+                            app:tint="@color/black"
+                            android:layout_width="@dimen/download_item_img_size"
+                            android:layout_height="@dimen/download_item_img_size"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:visibility="gone" />
+                        <ProgressBar
+                            android:id="@+id/pb_progress_sd"
+                            android:layout_width="@dimen/download_item_img_size"
+                            android:layout_height="@dimen/download_item_img_size"
+                            android:indeterminateDrawable="@drawable/progress_fbdownload_dialog"
+                            android:indeterminateDuration="1500" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_container_watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/download_item_height"
+                    android:background="@drawable/download_item_background"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="22dp"
+                    android:paddingRight="22dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/watch_video"
+                            android:textColor="@color/black"
+                            android:textDirection="locale"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="@dimen/download_item_img_size"
+                        android:layout_height="@dimen/download_item_img_size"
+                        android:src="@drawable/jz_click_play_selector" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.allinone.videosaver.free.djobbuzz.allinonevideodownloader.utility.RCRelativeLayout>
+</LinearLayout>

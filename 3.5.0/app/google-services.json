@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272427141617",
+    "project_id": "allinonevideodownloader-b3b95",
+    "storage_bucket": "allinonevideodownloader-b3b95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272427141617:android:820cef3b1c0922cee75c50",
+        "android_client_info": {
+          "package_name": "com.djobbuzz.allinonevideodownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272427141617-n5q7fb9cbtq956td3p12qgfdk77091tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhn09jburQEW02nvhrYv78VO4s84Lz--g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272427141617-n5q7fb9cbtq956td3p12qgfdk77091tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

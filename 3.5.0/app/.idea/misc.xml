@@ -1,0 +1,39 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/active_dot.xml" value="0.175" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/bg_tab_bar.xml" value="0.13385416666666666" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/bg_tab_bar_selected.xml" value="0.13385416666666666" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/download_button_background_shape_blue.xml" value="0.12604166666666666" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/ic_round_expand_more_24.xml" value="0.175" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/ic_round_favorite_border_24.xml" value="0.175" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/ic_round_search_24.xml" value="0.175" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/non_active_dot.xml" value="0.175" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/drawable/tab_color_selector.xml" value="0.13385416666666666" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/activity_full_view.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/activity_insta_main.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/activity_search_user.xml" value="0.1796875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/activity_story_feed_detail.xml" value="0.1796875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/activity_webview_login.xml" value="0.1796875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/appdialog_mode.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/dialog_view_facebook_download.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/fragment_insta_story.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/fragment_story.xml" value="0.19479166666666667" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/item_following_user_list.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/item_timeline.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/item_user_list.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/items_file_view.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/layout_header.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/slidingimages_layout.xml" value="0.2421875" />
+        <entry key="..\:/VideoDownloaderCloneAgain/3.5.0/app/src/main/res/layout/story_list_object.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: ir.siaray:downloadmanagerplus:1.4.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d01a4e9ef969bb71c79041fd7036b3d3/jetified-downloadmanagerplus-1.4.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d01a4e9ef969bb71c79041fd7036b3d3/jetified-downloadmanagerplus-1.4.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d01a4e9ef969bb71c79041fd7036b3d3/jetified-downloadmanagerplus-1.4.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d01a4e9ef969bb71c79041fd7036b3d3/jetified-downloadmanagerplus-1.4.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ir.siaray/downloadmanagerplus/1.4.1/e7409fbd9b71ff96f5f58bc860ba88bcebb780fc/downloadmanagerplus-1.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ir.siaray/downloadmanagerplus/1.4.1/156ac1c6a5d47efe3f5ca9b2c84041108d0e33ee/downloadmanagerplus-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/pattern" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_close_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:maxWidth="35dp"
+                android:maxHeight="35dp"
+                android:src="@drawable/jc_back_tiny_pressed"
+                app:tint="@color/splashtextcolor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_subscription"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Upgrade to PRO"
+                android:textColor="@color/splashtextcolor"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/three_mounth_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="@dimen/pad_15"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:background="@drawable/round_background"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="Lifetime Offer"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/txt_total_price"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="Total Price - $4.99"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txt_priceright"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="@string/default_price"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="All Time"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="@dimen/pad_15"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="Pro Features"
+                            android:textStyle="bold"
+                            android:textColor="@color/splashtextcolor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="@dimen/pad_15"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:clickable="true"
+                    android:gravity="center|start"
+                    android:orientation="horizontal"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="@dimen/pad_20"
+                        android:maxHeight="@dimen/pad_20"
+                        android:src="@drawable/ic_baseline_check_circle_24"
+                         />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="No Any Ads"
+                        android:textColor="@color/splashtextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="@dimen/pad_15"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:clickable="true"
+                    android:gravity="center|start"
+                    android:orientation="horizontal"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="@dimen/pad_20"
+                        android:maxHeight="@dimen/pad_20"
+                        android:src="@drawable/ic_baseline_check_circle_24" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Faster Connections"
+                        android:textColor="@color/splashtextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="@dimen/pad_15"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:clickable="true"
+                    android:gravity="center|start"
+                    android:orientation="horizontal"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="@dimen/pad_20"
+                        android:maxHeight="@dimen/pad_20"
+                        android:src="@drawable/ic_baseline_check_circle_24" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Unlimited Downloads"
+                        android:textColor="@color/splashtextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="@dimen/pad_15"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:clickable="true"
+                    android:gravity="center|start"
+                    android:orientation="horizontal"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="@dimen/pad_20"
+                        android:maxHeight="@dimen/pad_20"
+                        android:src="@drawable/ic_baseline_check_circle_24" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="No Restriction On Download"
+                        android:textColor="@color/splashtextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="@dimen/pad_15"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:clickable="true"
+                    android:gravity="center|start"
+                    android:orientation="horizontal"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="@dimen/pad_20"
+                        android:maxHeight="@dimen/pad_20"
+                        android:src="@drawable/ic_baseline_check_circle_24" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Lifetime offer "
+                        android:textColor="@color/splashtextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/paynow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:background="@drawable/round_background_new"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:focusable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="center"
+                        android:text="Pay Now"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_15"
+                    android:id="@+id/llrestorepurchase"
+                    android:layout_marginTop="@dimen/pad_20"
+                    android:layout_marginRight="@dimen/pad_15"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:focusable="true">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Already Purchased?"
+                        android:textColor="@color/fontcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pad_15"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Restore My Purchase"
+                        android:textColor="@color/splashtextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

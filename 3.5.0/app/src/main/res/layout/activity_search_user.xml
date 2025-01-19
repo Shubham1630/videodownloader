@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/layout_header" />
+
+    <RelativeLayout
+        android:id="@+id/RLEdittextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvPasteText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/bg_card"
+        android:elevation="3dp">
+
+        <EditText
+            android:id="@+id/etSearchText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/imSearch"
+            android:background="@null"
+            android:hint="@string/search_user"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:padding="15dp"
+            android:text=""
+            android:singleLine="true"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/titleText"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:src="@drawable/ic_round_search_24"
+            android:textSize="15sp"
+              />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_NoResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/no_result_found"
+            android:textColor="@color/titleText"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvUserSearchLis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scrollbars="vertical" />
+
+
+    </RelativeLayout>
+</LinearLayout>

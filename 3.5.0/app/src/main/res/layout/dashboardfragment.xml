@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentscrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    app:chainUseRtl="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingBottom="100dp">
+
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:id="@+id/laycard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bottombgcolor"
+            app:layout_constraintBottom_toTopOf="@+id/urlcard"
+            app:layout_constraintHeight_default="percent"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shape_roundRect_bottomLeftRadius="20dp"
+            app:shape_roundRect_bottomRightRadius="20dp"
+            app:shape_roundRect_topLeftRadius="0dp"
+            app:shape_roundRect_topRightRadius="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:paddingBottom="30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    app:cardBackgroundColor="@color/bg_card"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="22dp"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_weight="0.7"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="start"
+                                android:text="@string/auto_save"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/titletext"
+                                android:textDirection="locale"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:fontFamily="@font/roboto_regular"
+                                android:gravity="start"
+                                android:text="@string/turn_on_switch_to_download"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/light_textcol"
+                                android:textDirection="locale"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="30dp"
+                            android:paddingTop="35dp"
+                            android:paddingRight="30dp">
+
+                            <androidx.appcompat.widget.SwitchCompat
+                                android:id="@+id/swAutoDownlaod"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:gravity="top"
+                                android:thumb="@drawable/switch_thumb"
+                                app:track="@drawable/switch_track" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardinstaprivate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    android:visibility="visible"
+                    app:cardBackgroundColor="@color/bg_card"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:cardPreventCornerOverlap="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="22dp"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginBottom="25dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_weight="0.7"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="start"
+                                android:text="@string/instagram_stories"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/titletext"
+                                android:textDirection="locale"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:fontFamily="@font/roboto_regular"
+                                android:gravity="start"
+                                android:text="@string/download_from_private_account"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/light_textcol"
+                                android:textDirection="locale"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_instaautoprivate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="30dp"
+                            android:paddingTop="35dp"
+                            android:paddingRight="30dp">
+
+                            <androidx.appcompat.widget.SwitchCompat
+                                android:id="@+id/swAutoDownlaodinstagramprivate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:clickable="false"
+                                android:gravity="top"
+                                android:thumb="@drawable/switch_thumb"
+                                app:track="@drawable/switch_track" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/urlcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/topmargin25"
+            app:cardBackgroundColor="@color/bottombgcolor"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="@dimen/_2sdp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="@dimen/_8sdp"
+            app:layout_constraintBottom_toTopOf="@+id/adView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/laycard">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/pad_10"
+                app:cardBackgroundColor="@color/bg_card"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="@dimen/_2sdp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="@dimen/_8sdp"
+                app:layout_constraintBottom_toTopOf="@+id/adView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/laycard">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/imagelink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:src="@drawable/ic_link"
+                        app:layout_constraintBottom_toBottomOf="@+id/eturl"
+                        app:layout_constraintEnd_toStartOf="@+id/eturl"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/eturl" />
+
+                    <com.allinone.videosaver.free.djobbuzz.allinonevideodownloader.model.GoEditText
+                        android:id="@+id/eturl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="@string/enter_or_paste_copied_url"
+                        android:imeOptions="actionSearch"
+                        android:maxLines="1"
+                        android:paddingLeft="17.0dip"
+                        android:paddingTop="25.0dip"
+                        android:paddingRight="17.0dip"
+                        android:paddingBottom="25.0dip"
+                        android:singleLine="true"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/titletext"
+                        android:textColorHint="@color/titletext"
+                        android:textDirection="locale"
+                        android:textSize="14.0sp"
+                        app:layout_constraintEnd_toStartOf="@+id/image"
+                        app:layout_constraintStart_toEndOf="@+id/imagelink"
+                        tools:ignore="MissingConstraints" />
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16.0dip"
+                        android:src="@drawable/ic_clear"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="@+id/eturl"
+                        app:layout_constraintEnd_toStartOf="@+id/txtPaste"
+                        app:layout_constraintStart_toEndOf="@+id/eturl"
+                        app:layout_constraintTop_toTopOf="@+id/eturl" />
+
+                    <TextView
+                        android:id="@+id/txtPaste"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16.0dip"
+                        android:background="@drawable/paste_btn"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingHorizontal="14.0dip"
+                        android:paddingVertical="12dp"
+                        android:text="@string/paste"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textDirection="locale"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="@+id/eturl"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/image"
+                        app:layout_constraintTop_toTopOf="@+id/eturl" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/vdo_ContentVideo"
+            app:layout_constraintTop_toBottomOf="@+id/urlcard" />
+
+<!--        <VideoView-->
+<!--            android:id="@+id/vdo_ContentVideo"-->
+<!--            android:layout_width="145dp"-->
+<!--            android:layout_height="159dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:visibility="visible"-->
+<!--            app:layout_constraintHeight_percent="0.25"-->
+<!--            tools:layout_editor_absoluteX="133dp"-->
+<!--            tools:layout_editor_absoluteY="454dp" />-->
+
+        <!--        <com.ortiz.touchview.TouchImageView-->
+        <!--            android:id="@+id/imgpreview"-->
+        <!--            android:layout_width="0.0dip"-->
+        <!--            android:layout_height="0.0dip"-->
+
+
+        <!--            android:background="@android:color/transparent"-->
+        <!--            android:scaleType="centerCrop"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/vdo_ContentVideo"-->
+        <!--            app:layout_constraintLeft_toLeftOf="@+id/vdo_ContentVideo"-->
+        <!--            app:layout_constraintRight_toRightOf="@+id/vdo_ContentVideo"-->
+        <!--            app:layout_constraintTop_toTopOf="@+id/vdo_ContentVideo" />-->
+
+        <ImageView
+            android:id="@+id/vdopause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="10.0dip"
+            app:layout_constraintBottom_toBottomOf="@+id/vdo_ContentVideo"
+            app:layout_constraintLeft_toLeftOf="@+id/vdo_ContentVideo"
+            app:layout_constraintRight_toRightOf="@+id/vdo_ContentVideo"
+            app:layout_constraintTop_toTopOf="@+id/vdo_ContentVideo" />
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progressLoader"-->
+<!--            style="?android:progressBarStyle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="0.0dip"-->
+<!--            android:visibility="gone"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/vdo_ContentVideo"-->
+<!--            app:layout_constraintLeft_toLeftOf="@+id/vdo_ContentVideo"-->
+<!--            app:layout_constraintRight_toRightOf="@+id/vdo_ContentVideo"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/vdo_ContentVideo" />-->
+
+        <Button
+            android:id="@+id/btndownload"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/main_gradi_btn_disabled"
+            android:enabled="true"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:paddingTop="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="@string/download"
+            android:textColor="@color/appbgcolor"
+            android:textSize="12.0sp"
+            app:layout_constraintEnd_toEndOf="@+id/urlcard"
+            app:layout_constraintStart_toStartOf="@+id/urlcard"
+            app:layout_constraintTop_toBottomOf="@+id/urlcard"
+            app:layout_constraintWidth_percent="0.40" />
+
+        <Button
+            android:id="@+id/btnshare"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/pad_20"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="@dimen/pad_20"
+            android:layout_marginBottom="@dimen/pad_15"
+            android:background="@drawable/main_gradi_btn_disabled"
+            android:enabled="false"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:paddingTop="15.0dip"
+            android:paddingBottom="15.0dip"
+            android:text="@string/share_video"
+            android:textColor="@color/appbgcolor"
+            android:textSize="12.0sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btndownload"
+            app:layout_constraintTop_toBottomOf="@+id/vdo_ContentVideo"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.40" />
+        <!--</androidx.cardview.widget.CardView>-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fbappcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/topmargin25"
+            android:visibility="visible"
+            app:cardBackgroundColor="@color/bottombgcolor"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="@dimen/_2sdp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="@dimen/_8sdp"
+            app:layout_constraintBottom_toTopOf="@+id/card_supportedapps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btndownload">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fbcardinside"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    app:cardBackgroundColor="@color/bg_card"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="0dp"
+                    app:cardMaxElevation="@dimen/_2sdp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="@dimen/_8sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/adView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/laycard">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/fbcleaner"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginVertical="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/iv_fbImg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:src="@drawable/facebook"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:text="@string/facebook_video_downloader"
+                                android:textAlignment="center"
+                                android:textColor="@color/titletext"
+                                android:textDirection="locale"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/iv_fbImg" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+                        <!--                            android:id="@+id/wacleaner"-->
+                        <!--                            android:layout_width="0dp"-->
+                        <!--                            android:layout_height="match_parent"-->
+                        <!--                            android:layout_gravity="center"-->
+                        <!--                            android:layout_marginVertical="@dimen/_5sdp"-->
+                        <!--                            android:layout_weight="1"-->
+                        <!--                            android:gravity="center"-->
+                        <!--                            android:orientation="vertical">-->
+
+                        <!--&lt;!&ndash;                            <ImageView&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:id="@+id/iv_waimg"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:layout_width="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:layout_height="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:gravity="center|top"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:src="@drawable/whatsapp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;                            <TextView&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:layout_width="match_parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:layout_height="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:layout_marginTop="10dp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:fontFamily="@font/roboto_bold"&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;                                android:gravity="center"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:text="@string/whatsappcleaner"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:textColor="@color/titletext"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:textDirection="locale"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:textAlignment="center"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                android:textSize="14sp"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+                        <!--&lt;!&ndash;                                app:layout_constraintTop_toBottomOf="@+id/iv_waimg" />&ndash;&gt;-->
+
+
+                        <!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/insta_new"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginVertical="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/iv_instaimg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:src="@drawable/instagram"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="center"
+                                android:text="@string/instagram_stories"
+                                android:textAlignment="center"
+                                android:textColor="@color/titletext"
+                                android:textDirection="locale"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/iv_instaimg" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_supportedapps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_10"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="@dimen/pad_10"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="@dimen/_2sdp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="@dimen/_8sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fbappcard">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="4dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shimmer_auto_start="true"
+                    app:shimmer_base_alpha="0.9"
+                    app:shimmer_duration="2000"
+                    app:shimmer_highlight_alpha="0.5"
+                    app:shimmer_highlight_color="@color/shimmerhighlightcolor">
+
+                    <TextView
+                        android:id="@+id/opentiktok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/blue_button_selector"
+                        android:gravity="center"
+                        android:minWidth="0dp"
+                        android:minHeight="0dp"
+                        android:paddingLeft="18dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="18dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/apps"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:textDirection="locale"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+                <include
+                    layout="@layout/lock_dialog"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

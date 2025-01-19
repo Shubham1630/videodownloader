@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="pad_10">10dp</dimen>
+    <dimen name="pad_15">15dp</dimen>
+    <dimen name="pad_20">20dp</dimen>
+    <dimen name="titleSize">18sp</dimen>
+    <dimen name="txt_small">16sp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_45sdp">45dp</dimen>
+    <dimen name="jz_start_button_w_h_normal">45dp</dimen>
+    <dimen name="jz_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="dialogtextsize">20sp</dimen>
+    <dimen name="topmargin25">25dp</dimen>
+    <dimen name="progress_bar_height">2dp</dimen>
+    <dimen name="wa_height">65dp</dimen>
+    <dimen name="wa_horizontalmargin">15dp</dimen>
+    <dimen name="wa_cleaner_imagesize">40dp</dimen>
+    <dimen name="nofilestextsize">18sp</dimen>
+    <dimen name="download_item_height">86dp</dimen>
+    <dimen name="download_item_img_size">36dp</dimen>
+</resources>
