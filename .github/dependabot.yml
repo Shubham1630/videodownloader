@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle" # Gradle for Java/Kotlin projects
+    directory: "/3.5.0" # Path to the directory containing build.gradle
+    schedule:
+      interval: "weekly"
+
